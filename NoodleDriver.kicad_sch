@@ -5,431 +5,6 @@
 	(uuid "e438c8a8-7924-449e-bbdc-1687b4655d70")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx:74HC04"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74HC04"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Hex Inverter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "HCMOS not inv"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74HC04_1_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_2_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_3_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_4_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_5_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_6_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_7_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC04_7_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -940,141 +515,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1188,231 +628,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Driver_LED:WS2811"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WS2811"
-				(at 5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -7.62 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PWM LED driver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2811_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2811_1_1"
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUTR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUTG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "OUTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2257,12 +1472,6 @@
 		)
 	)
 	(junction
-		(at 63.5 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "151f02ce-4f70-4520-b735-81e49d106a55")
-	)
-	(junction
 		(at 63.5 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2275,34 +1484,10 @@
 		(uuid "71555146-6411-4750-8570-e84ab45392ce")
 	)
 	(junction
-		(at 104.14 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76a5ed63-82e1-42ea-90b2-42ef505f5691")
-	)
-	(junction
 		(at 63.5 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c101ffe-5a6c-4803-9087-6629550f98b6")
-	)
-	(junction
-		(at 50.8 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "813db9f8-fc61-41d0-a71a-3af5b77c99a0")
-	)
-	(junction
-		(at 77.47 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6d99464-c7b7-4e91-9c7f-b69d1d426e7b")
-	)
-	(junction
-		(at 172.72 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb3bbc26-36c0-4a9f-abae-de9a8e091743")
 	)
 	(junction
 		(at 50.8 36.83)
@@ -2317,28 +1502,10 @@
 		(uuid "d3a0d969-0cee-4417-9b74-be3faa9e69fc")
 	)
 	(junction
-		(at 201.93 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc54d4bb-817a-4638-bd1c-18c5309370b5")
-	)
-	(junction
 		(at 72.39 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1598ec6-e548-4210-8685-8caa3e01f41a")
-	)
-	(junction
-		(at 201.93 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6ee461d-25cd-4bf8-82d6-2ab74dffc9d5")
-	)
-	(junction
-		(at 172.72 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9a92e7f-9a9a-46e7-9071-4f5bbd053da3")
 	)
 	(junction
 		(at 256.54 64.77)
@@ -2351,16 +1518,8 @@
 		(uuid "86533577-ac86-4b3d-9be3-2a7da1050ae2")
 	)
 	(no_connect
-		(at 93.98 87.63)
-		(uuid "89b03933-520b-4be9-9849-1c0ea725b62a")
-	)
-	(no_connect
 		(at 229.87 62.23)
 		(uuid "94286203-6dcb-40de-b9b8-627f20e56084")
-	)
-	(no_connect
-		(at 93.98 60.96)
-		(uuid "c6d72c92-15e7-4d52-aa7d-d4f88f55b657")
 	)
 	(no_connect
 		(at 209.55 82.55)
@@ -2388,16 +1547,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 162.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a25be4-aa62-4185-91fc-2ccc53e5b342")
-	)
-	(wire
-		(pts
 			(xy 254 67.31) (xy 259.08 67.31)
 		)
 		(stroke
@@ -2405,16 +1554,6 @@
 			(type default)
 		)
 		(uuid "02c13a54-35b0-4040-9b5d-d16a889ca3c0")
-	)
-	(wire
-		(pts
-			(xy 201.93 100.33) (xy 219.71 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f9566f-f060-47c6-8507-f5eb9b9fdfcb")
 	)
 	(wire
 		(pts
@@ -2445,16 +1584,6 @@
 			(type default)
 		)
 		(uuid "0e30f82d-6214-45e7-a226-1b3583cf3b0c")
-	)
-	(wire
-		(pts
-			(xy 73.66 55.88) (xy 77.47 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ffa709d-b5f0-4644-be03-de1a8df80a2b")
 	)
 	(wire
 		(pts
@@ -2518,16 +1647,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 142.24 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a38528-1560-4fd4-9964-444b3dc7ec83")
-	)
-	(wire
-		(pts
 			(xy 236.22 82.55) (xy 241.3 82.55)
 		)
 		(stroke
@@ -2535,16 +1654,6 @@
 			(type default)
 		)
 		(uuid "295dcd20-53e9-42de-a503-7d09567da3a3")
-	)
-	(wire
-		(pts
-			(xy 114.3 60.96) (xy 130.81 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2afdff-7335-4bed-92cf-7c3d053edaa8")
 	)
 	(wire
 		(pts
@@ -2568,36 +1677,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 48.26) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "350cace3-928b-4e92-bc48-0422a87af356")
-	)
-	(wire
-		(pts
-			(xy 162.56 76.2) (xy 162.56 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c509498-697c-4925-a334-fc7421a6c3d7")
-	)
-	(wire
-		(pts
-			(xy 162.56 67.31) (xy 157.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dff1d92-0fd6-4447-82b8-7995794ea995")
-	)
-	(wire
-		(pts
 			(xy 50.8 87.63) (xy 50.8 100.33)
 		)
 		(stroke
@@ -2608,16 +1687,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 55.88) (xy 93.98 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40014907-698d-45ce-9e44-2227eda66650")
-	)
-	(wire
-		(pts
 			(xy 80.01 66.04) (xy 80.01 100.33)
 		)
 		(stroke
@@ -2625,36 +1694,6 @@
 			(type default)
 		)
 		(uuid "42a4f7a0-f676-4b0e-ab67-983ba3a1bf91")
-	)
-	(wire
-		(pts
-			(xy 93.98 58.42) (xy 83.82 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c6c7b3-54f7-4b2a-98a8-df508f50bcdf")
-	)
-	(wire
-		(pts
-			(xy 63.5 48.26) (xy 63.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "482000f9-32c2-4232-8917-2c06abe44968")
-	)
-	(wire
-		(pts
-			(xy 172.72 36.83) (xy 256.54 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e4ede5-e7cc-452d-87a1-c4595992c413")
 	)
 	(wire
 		(pts
@@ -2675,26 +1714,6 @@
 			(type default)
 		)
 		(uuid "4b866ceb-5c4e-4459-b681-c5e2e93a83ea")
-	)
-	(wire
-		(pts
-			(xy 130.81 82.55) (xy 130.81 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b8f2cd4-0b31-4a99-bc61-cc0332d1ef6f")
-	)
-	(wire
-		(pts
-			(xy 93.98 85.09) (xy 77.47 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0b5a53-43d0-47cc-b44a-26c09950bd79")
 	)
 	(wire
 		(pts
@@ -2725,16 +1744,6 @@
 			(type default)
 		)
 		(uuid "501433a3-4e66-4aff-8be3-193af7d658bf")
-	)
-	(wire
-		(pts
-			(xy 77.47 85.09) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50532791-e9d9-4b20-b1e6-b2128e6e4a87")
 	)
 	(wire
 		(pts
@@ -2798,26 +1807,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 100.33) (xy 201.93 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c212a36-7d99-4696-9949-14aa2948f0f1")
-	)
-	(wire
-		(pts
-			(xy 130.81 93.98) (xy 142.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5acc7b-1f9f-4733-86d5-79dcde6af7ba")
-	)
-	(wire
-		(pts
 			(xy 39.37 36.83) (xy 50.8 36.83)
 		)
 		(stroke
@@ -2845,66 +1834,6 @@
 			(type default)
 		)
 		(uuid "65d7e9db-522a-4b97-9564-2c1d1eb7589d")
-	)
-	(wire
-		(pts
-			(xy 162.56 74.93) (xy 209.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67984ce1-7431-40c2-a50e-11ea08abc396")
-	)
-	(wire
-		(pts
-			(xy 30.48 72.39) (xy 39.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b0bd57e-8b29-4d72-a463-df5b3381eae9")
-	)
-	(wire
-		(pts
-			(xy 104.14 92.71) (xy 104.14 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c776d5e-8155-46ab-972c-0dc15f3e2022")
-	)
-	(wire
-		(pts
-			(xy 201.93 60.96) (xy 201.93 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0a2cc9-0503-4d23-a60b-265c16c114d9")
-	)
-	(wire
-		(pts
-			(xy 201.93 48.26) (xy 201.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df39799-6151-42c5-ab34-d9552b386ac5")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 104.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70feee80-54c3-44ad-a947-ac4934699780")
 	)
 	(wire
 		(pts
@@ -2938,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 80.01 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754612cd-82b6-4395-b6c0-01bfe25bfa46")
-	)
-	(wire
-		(pts
 			(xy 63.5 36.83) (xy 72.39 36.83)
 		)
 		(stroke
@@ -2968,26 +1887,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 85.09) (xy 157.48 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eeb45cd-1806-49fb-902a-ce6566f2d2b2")
-	)
-	(wire
-		(pts
-			(xy 83.82 82.55) (xy 93.98 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2d8acc-3b51-4830-8f4c-dde66336174b")
-	)
-	(wire
-		(pts
 			(xy 246.38 67.31) (xy 250.19 67.31)
 		)
 		(stroke
@@ -2995,16 +1894,6 @@
 			(type default)
 		)
 		(uuid "81ce3748-e15d-493c-b79b-555fc052c29c")
-	)
-	(wire
-		(pts
-			(xy 114.3 82.55) (xy 130.81 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8213f9a3-fed8-4fc9-9baf-90b006b61e20")
 	)
 	(wire
 		(pts
@@ -3018,6 +1907,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 80.01) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d185ae-171c-42bd-9b8b-9dc8c8ae65c6")
+	)
+	(wire
+		(pts
 			(xy 233.68 80.01) (xy 233.68 87.63)
 		)
 		(stroke
@@ -3025,56 +1924,6 @@
 			(type default)
 		)
 		(uuid "871cd993-03fa-4f06-92ad-cdc5ad1d0bd6")
-	)
-	(wire
-		(pts
-			(xy 172.72 60.96) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87d5f87e-38a9-4280-91ae-5bba992b4f09")
-	)
-	(wire
-		(pts
-			(xy 162.56 72.39) (xy 162.56 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "887e31e5-754e-4f4a-95da-e1d04a92963e")
-	)
-	(wire
-		(pts
-			(xy 130.81 49.53) (xy 142.24 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa22282-c0a6-4c46-bc53-5f3fb999d3bc")
-	)
-	(wire
-		(pts
-			(xy 50.8 48.26) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bde8d03-0ceb-4bc6-a02f-83911edf9103")
-	)
-	(wire
-		(pts
-			(xy 130.81 67.31) (xy 142.24 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df8404c-cc4f-449f-b4eb-e77b12821f86")
 	)
 	(wire
 		(pts
@@ -3088,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 172.72 36.83)
+			(xy 72.39 36.83) (xy 256.54 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3108,107 +1957,27 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 60.96) (xy 172.72 60.96)
+			(xy 198.12 72.39) (xy 209.55 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9387fe20-ac2d-4e6a-9fce-89a3bdb214e7")
+		(uuid "9fce54c2-4125-448a-aba6-74d3abc07125")
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 167.64 67.31)
+			(xy 198.12 74.93) (xy 209.55 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "942d0d30-0a7c-4ee5-b09c-c2e556c4fd3a")
+		(uuid "a03c8439-fc90-40e6-9979-61fd4d66e171")
 	)
 	(wire
 		(pts
-			(xy 130.81 60.96) (xy 130.81 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c4120c-7e24-469a-be02-83cda703a301")
-	)
-	(wire
-		(pts
-			(xy 167.64 80.01) (xy 167.64 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961e51fd-e424-425a-8dad-f06ad44d0faa")
-	)
-	(wire
-		(pts
-			(xy 130.81 55.88) (xy 130.81 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b41467-6e8a-4939-aa4f-28c15f33cc6d")
-	)
-	(wire
-		(pts
-			(xy 209.55 80.01) (xy 167.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad45d98-1d4b-4cca-8454-86def204c6f0")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 50.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a03798d3-2a10-423f-9052-9db3d5302b68")
-	)
-	(wire
-		(pts
-			(xy 130.81 76.2) (xy 142.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2507662-0d5a-4e72-946b-88ea6e36bfc3")
-	)
-	(wire
-		(pts
-			(xy 30.48 69.85) (xy 41.91 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36045cb-c372-4b4f-b059-715b7df9c396")
-	)
-	(wire
-		(pts
-			(xy 172.72 36.83) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a44cd115-0f14-439a-9479-27c57e785e80")
-	)
-	(wire
-		(pts
-			(xy 80.01 100.33) (xy 104.14 100.33)
+			(xy 80.01 100.33) (xy 219.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3225,16 +1994,6 @@
 			(type default)
 		)
 		(uuid "a686fa4e-5bff-48ad-bba8-d7cb9da46e51")
-	)
-	(wire
-		(pts
-			(xy 83.82 58.42) (xy 83.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4b0566-ef62-42cb-8788-523c9ab058b3")
 	)
 	(wire
 		(pts
@@ -3258,16 +2017,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 48.26) (xy 201.93 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace3b664-48dc-4af5-aacd-5cc11f021ddf")
-	)
-	(wire
-		(pts
 			(xy 246.38 82.55) (xy 250.19 82.55)
 		)
 		(stroke
@@ -3275,16 +2024,6 @@
 			(type default)
 		)
 		(uuid "adb48d04-127b-4353-af62-7697d115efb8")
-	)
-	(wire
-		(pts
-			(xy 167.64 93.98) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0e8d7d-8e7c-4c56-9ad9-b2c2fa328550")
 	)
 	(wire
 		(pts
@@ -3308,36 +2047,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 73.66) (xy 63.5 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3dd6307-6461-41e8-b4a9-579b42e00118")
-	)
-	(wire
-		(pts
-			(xy 63.5 73.66) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e5fc6a-4a4b-4e49-bc77-37a67d07da86")
-	)
-	(wire
-		(pts
-			(xy 77.47 67.31) (xy 30.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b40160f1-b9af-4ea2-ae21-cb67575c8526")
-	)
-	(wire
-		(pts
 			(xy 250.19 67.31) (xy 250.19 69.85)
 		)
 		(stroke
@@ -3345,16 +2054,6 @@
 			(type default)
 		)
 		(uuid "b5724848-344a-49e8-89e5-0b68908f58d1")
-	)
-	(wire
-		(pts
-			(xy 104.14 77.47) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5abbe72-5059-40a5-93f2-d99f05667fc1")
 	)
 	(wire
 		(pts
@@ -3378,16 +2077,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 77.47) (xy 165.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7016fba-7975-4512-b89b-be65669d4f28")
-	)
-	(wire
-		(pts
 			(xy 193.04 127) (xy 199.39 127)
 		)
 		(stroke
@@ -3395,16 +2084,6 @@
 			(type default)
 		)
 		(uuid "b77e9b75-d67c-4248-9d45-8b5d9daae6fb")
-	)
-	(wire
-		(pts
-			(xy 114.3 87.63) (xy 130.81 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b82c2e39-c827-4e70-a6d7-ad74976d45ce")
 	)
 	(wire
 		(pts
@@ -3428,16 +2107,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 77.47) (xy 165.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed6fc61-d6a9-4aba-82c4-4344ef7b25dd")
-	)
-	(wire
-		(pts
 			(xy 238.76 77.47) (xy 241.3 77.47)
 		)
 		(stroke
@@ -3458,36 +2127,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 130.81 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3b0c93e-dd1f-4843-a417-44349bff6d5e")
-	)
-	(wire
-		(pts
-			(xy 30.48 64.77) (xy 77.47 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb2d697a-1547-4b8d-bb6e-36ed6bb2a445")
-	)
-	(wire
-		(pts
-			(xy 209.55 69.85) (xy 165.1 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf306be-6daf-4b5c-950d-54b820443d66")
-	)
-	(wire
-		(pts
 			(xy 72.39 104.14) (xy 72.39 100.33)
 		)
 		(stroke
@@ -3498,6 +2137,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 69.85) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff9733f-5a40-46a3-ad41-68f34afd57da")
+	)
+	(wire
+		(pts
 			(xy 219.71 87.63) (xy 219.71 100.33)
 		)
 		(stroke
@@ -3505,16 +2154,6 @@
 			(type default)
 		)
 		(uuid "d01f0611-76e7-4e6b-9c53-f861f49700b2")
-	)
-	(wire
-		(pts
-			(xy 167.64 67.31) (xy 209.55 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0330929-60b6-47fd-b2be-a3c8a4b9b2b3")
 	)
 	(wire
 		(pts
@@ -3548,26 +2187,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 167.64 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e220bcfd-a0fd-48fe-9124-6519de31d384")
-	)
-	(wire
-		(pts
-			(xy 165.1 58.42) (xy 157.48 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e488a167-2e53-4b01-84c8-00f97996ccb8")
-	)
-	(wire
-		(pts
 			(xy 193.04 129.54) (xy 199.39 129.54)
 		)
 		(stroke
@@ -3575,36 +2194,6 @@
 			(type default)
 		)
 		(uuid "e7d4411e-8b24-4397-bf3a-ad4191ff7e8d")
-	)
-	(wire
-		(pts
-			(xy 114.3 58.42) (xy 142.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea424c0e-d5d2-4e90-964d-80135671ed40")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 130.81 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc36621-e7f6-4a3d-be08-b1d9528b86ec")
-	)
-	(wire
-		(pts
-			(xy 189.23 60.96) (xy 201.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf1c336-4122-463a-8ba4-b58eda7897db")
 	)
 	(wire
 		(pts
@@ -3618,16 +2207,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 72.39) (xy 162.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef560a61-8ba2-483b-941f-6a8ad242192f")
-	)
-	(wire
-		(pts
 			(xy 199.39 142.24) (xy 177.8 142.24)
 		)
 		(stroke
@@ -3638,13 +2217,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 64.77) (xy 77.47 55.88)
+			(xy 198.12 67.31) (xy 209.55 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3b6f005-061e-4d16-a1b9-7ea4e4384ee8")
+		(uuid "f520fb98-1301-4825-a7b8-84a77a505084")
+	)
+	(wire
+		(pts
+			(xy 198.12 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89cd39a-fed4-442a-b492-7d446ad19be5")
 	)
 	(wire
 		(pts
@@ -3668,16 +2257,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 69.85) (xy 165.1 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd97a98f-1f0b-41c2-b338-254f5592b4c4")
-	)
-	(wire
-		(pts
 			(xy 250.19 116.84) (xy 257.81 116.84)
 		)
 		(stroke
@@ -3685,6 +2264,28 @@
 			(type default)
 		)
 		(uuid "fecf7831-4813-4e4c-b5b9-7ef26b692ec7")
+	)
+	(global_label "PA9"
+		(shape bidirectional)
+		(at 198.12 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03042386-66fa-464b-98ff-f0674e80f5fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4554 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PB11"
 		(shape bidirectional)
@@ -3730,6 +2331,28 @@
 			)
 		)
 	)
+	(global_label "PA2"
+		(shape bidirectional)
+		(at 198.12 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53535591-4d6d-45e3-9eb4-50cf7b5e78ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4554 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA0"
 		(shape bidirectional)
 		(at 193.04 137.16 180)
@@ -3752,9 +2375,9 @@
 			)
 		)
 	)
-	(global_label "PA10"
+	(global_label "PA8"
 		(shape bidirectional)
-		(at 73.66 55.88 180)
+		(at 198.12 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3762,9 +2385,9 @@
 			)
 			(justify right)
 		)
-		(uuid "62620a79-5642-4ae4-87cf-156e168402ba")
+		(uuid "6e9d7b1f-6a79-4a97-845d-4a5187dd457c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.7859 55.88 0)
+			(at 190.4554 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,24 +2397,46 @@
 			)
 		)
 	)
-	(global_label "PA9"
+	(global_label "PA10"
 		(shape bidirectional)
-		(at 41.91 69.85 0)
+		(at 198.12 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8352e215-7412-4330-bbbe-10aa3a859809")
+		(uuid "76d1a177-788e-416a-9c54-303f38382b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.5746 69.85 0)
+			(at 189.2459 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA1"
+		(shape bidirectional)
+		(at 198.12 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aae2eaf1-35eb-4fa2-8be5-e1c2906cf44d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4554 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3809,6 +2454,28 @@
 		(uuid "ac656bf9-3548-4104-a413-00c8ba8fa61d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.9845 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA3"
+		(shape bidirectional)
+		(at 198.12 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b41c6584-6ee4-4d09-9642-384f0e765c97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4554 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,112 +2552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_LED:WS2811")
-		(at 104.14 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04682008-7bb4-4235-bf7f-2a071324aa0f")
-		(property "Reference" "U2"
-			(at 106.3341 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2811"
-			(at 106.3341 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8"
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C114581"
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0d423e6f-f9ca-462a-aece-0275e19c6a66")
-		)
-		(pin "3"
-			(uuid "51fd212d-2e5f-4f7a-a720-9db44078eb95")
-		)
-		(pin "2"
-			(uuid "8a96386a-ee79-4dc5-9562-4e9a142ad7e4")
-		)
-		(pin "1"
-			(uuid "f93645d6-73f6-4156-88d3-6d6719476a3a")
-		)
-		(pin "8"
-			(uuid "320d8b15-e364-41fb-8b5b-ef092f426d17")
-		)
-		(pin "5"
-			(uuid "b4c8ec35-c1d9-445c-a9df-d19e657c73e8")
-		)
-		(pin "6"
-			(uuid "cac02f99-e59e-4bfc-b2aa-b964f7fa6572")
-		)
-		(pin "7"
-			(uuid "3b67e6e8-5f36-4b5c-b929-d428f55eb1df")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 243.84 67.31 90)
 		(unit 1)
@@ -4052,519 +2613,6 @@
 			(project "NoodeDriver"
 				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 186.69 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c8b0fe5-9ac6-4bf9-970c-d4fca641ab29")
-		(property "Reference" "C5"
-			(at 186.6963 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 186.6963 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C77020"
-			(at 186.69 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1c77ea6-1b5e-44b9-9512-72e95739e048")
-		)
-		(pin "1"
-			(uuid "784142ad-8f76-4d3b-8ca0-3621a0aefc9b")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_LED:WS2811")
-		(at 104.14 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22320738-4a09-4caf-a864-82969dd8085d")
-		(property "Reference" "U1"
-			(at 106.3341 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2811"
-			(at 106.3341 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
-			(at 96.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C114581"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "674660d8-5778-44f4-a780-96988c955391")
-		)
-		(pin "3"
-			(uuid "abd0df93-6143-4362-bd6a-4fd73de84528")
-		)
-		(pin "5"
-			(uuid "101e0594-552d-40a9-b536-bf7f431596be")
-		)
-		(pin "8"
-			(uuid "721ce6e3-c811-4213-83a1-300511b21ce6")
-		)
-		(pin "4"
-			(uuid "ee13c963-9290-4fd0-adbe-35cd30ab7bd6")
-		)
-		(pin "1"
-			(uuid "65f42032-dac8-4331-9029-2d6ec6a6100d")
-		)
-		(pin "2"
-			(uuid "2518cfaa-ea7b-4a82-81e9-5d4b4ffc9f4d")
-		)
-		(pin "6"
-			(uuid "42b4859f-8e79-4129-aa62-f271f72510b5")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 149.86 85.09 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4029fb84-4bb6-4bbb-883e-a040663960a6")
-		(property "Reference" "U4"
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a248")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb49")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f52")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d17a")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979f9")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac2")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a632")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543831")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f5096670a")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e59496323105")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a756")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a108")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602a6")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d985d")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 149.86 76.2 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4898a1b4-8e49-4b47-8507-2ab02c80c21a")
-		(property "Reference" "U4"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a249")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb4a")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f53")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d17b")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979fa")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac3")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a633")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543832")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f5096670b")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e59496323106")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a757")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a109")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602a7")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d985e")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 149.86 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48f63d7f-cf62-4649-aef0-a5053bc640fa")
-		(property "Reference" "U4"
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a24a")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb4b")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f54")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d17c")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979fb")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac4")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a634")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543833")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f5096670c")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e59496323107")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a758")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a10a")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602a8")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d985f")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5033,198 +3081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC04")
-		(at 186.69 48.26 90)
-		(unit 7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bbe7cd7-e5f1-4e93-a0e4-1243d8de1f4a")
-		(property "Reference" "U4"
-			(at 186.69 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 186.69 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 186.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 186.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 186.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 186.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a24b")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb4c")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f55")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d17d")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979fc")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac5")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a635")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543834")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f5096670d")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e59496323108")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a759")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a10b")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602a9")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d9860")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
-					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 50.8 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a8259ce-41a8-4661-a932-f973a6887d36")
-		(property "Reference" "R1"
-			(at 53.34 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150R"
-			(at 53.34 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C138054"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "231ecb43-ef26-4626-bc3e-4c05ef360086")
-		)
-		(pin "2"
-			(uuid "56171fbf-1a51-4292-acc2-f2fdb324cd09")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 264.16 82.55 0)
 		(unit 1)
@@ -5520,85 +3376,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 63.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab9ab5ee-f257-4a3a-8c44-339b9daa7e1f")
-		(property "Reference" "R2"
-			(at 66.04 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150R"
-			(at 66.04 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C138054"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29e02a58-1af7-4178-98c8-f606d688a989")
-		)
-		(pin "2"
-			(uuid "9a24f12a-374a-4f94-abd2-98ba40408a65")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 243.84 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5736,232 +3513,6 @@
 				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
 					(reference "J6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 149.86 58.42 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfb22734-ec8c-4e08-ab3c-70ed7a095190")
-		(property "Reference" "U4"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a24c")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb4d")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f56")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d17e")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979fd")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac6")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a636")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543835")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f5096670e")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e59496323109")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a75a")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a10c")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602aa")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d9861")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 149.86 93.98 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c262d19a-efee-423e-886f-ab4c206eca04")
-		(property "Reference" "U4"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 149.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a24d")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb4e")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f57")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d17f")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979fe")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac7")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a637")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543836")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f5096670f")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e5949632310a")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a75b")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a10d")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602ab")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d9862")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
-					(unit 6)
 				)
 			)
 		)
@@ -6167,85 +3718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9caf6fe-436a-4303-837c-728bc4bfd2cc")
-		(property "Reference" "C1"
-			(at 53.34 83.8262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 53.34 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14445"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf35a555-659f-44c6-b42a-8d9794b110aa")
-		)
-		(pin "2"
-			(uuid "fbedf2c5-429e-456f-a205-c02d12981284")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 243.84 72.39 90)
 		(unit 1)
@@ -6308,119 +3780,6 @@
 				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
 					(reference "R5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 149.86 67.31 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df29f86e-5f8d-45fc-8228-2dbfd9b8e359")
-		(property "Reference" "U4"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 149.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86613"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "40ea5164-5025-4a61-9d07-8ebdec00a24e")
-		)
-		(pin "7"
-			(uuid "ed418619-2c37-4c1c-ae95-d2720036eb4f")
-		)
-		(pin "3"
-			(uuid "8f501257-cfc2-4b2c-a074-fef31d647f58")
-		)
-		(pin "1"
-			(uuid "fc281ff6-8605-41fd-b5fc-5f49a664d180")
-		)
-		(pin "14"
-			(uuid "fd0510e3-f5aa-4618-a78d-25680c9979ff")
-		)
-		(pin "4"
-			(uuid "4937d7ef-6a7a-494a-a065-a819342d3ac8")
-		)
-		(pin "9"
-			(uuid "109542d0-ddce-4f6a-b305-5a809053a638")
-		)
-		(pin "5"
-			(uuid "aeaae4ed-d20d-40b8-9ff6-f11e8d543837")
-		)
-		(pin "11"
-			(uuid "e6fe1cd2-c773-4cbb-bac8-7b2f50966710")
-		)
-		(pin "10"
-			(uuid "51609f59-9070-44d0-abb8-e5949632310b")
-		)
-		(pin "8"
-			(uuid "2031eca7-4f94-49a4-a1af-351ee495a75c")
-		)
-		(pin "13"
-			(uuid "adffbe3d-61d7-4a94-a491-83064c85a10e")
-		)
-		(pin "6"
-			(uuid "7b926502-790f-441e-a7f8-d31ed71602ac")
-		)
-		(pin "2"
-			(uuid "d28da3d6-a8ca-46ea-bc91-ec60a53d9863")
-		)
-		(instances
-			(project ""
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "U4")
-					(unit 3)
 				)
 			)
 		)
@@ -6496,85 +3855,6 @@
 			(project ""
 				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e73d77e0-b403-4908-8634-4148c9b11def")
-		(property "Reference" "C2"
-			(at 66.04 83.8262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 66.04 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14445"
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "283d1fae-efdd-4cfb-9e83-f2f48a608e44")
-		)
-		(pin "2"
-			(uuid "a940c5ab-e615-4a32-9266-28dff5dfd088")
-		)
-		(instances
-			(project "NoodeDriver"
-				(path "/e438c8a8-7924-449e-bbdc-1687b4655d70"
-					(reference "C2")
 					(unit 1)
 				)
 			)
